@@ -19,6 +19,10 @@
   }
 
   #chat-container {
+    position: relative;       /* flota sobre la página */
+    bottom: 20px;          /* distancia desde abajo */
+    right: 20px;           /* distancia desde la derecha */
+    z-index: 999;          /* siempre encima de todo */
     width: 25em;
     background: linear-gradient(90deg, #3894FF, #0D509F, #0D509F, #3894FF);
     border-radius: 8px;
@@ -874,3 +878,4 @@
     })();
   };
 })();
+
